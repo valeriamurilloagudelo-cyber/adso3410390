@@ -1,69 +1,91 @@
-body{
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
     font-family:'Poppins',sans-serif;
-    background:linear-gradient(135deg,#ffe7f2,#e8ddff);
+}
+
+body{
+    background:linear-gradient(135deg,#ffe6ef,#f3e8ff,#e6f7ff);
     display:flex;
     justify-content:center;
     align-items:center;
     min-height:100vh;
+    color:#6b5b95;
 }
 
 main{
-    width:420px;
-    background:white;
-    border-radius:20px;
-    padding:25px;
-}
-
-header{
+    width:430px;
+    background:#ffffff;
+    border-radius:18px;
+    padding:30px;
     text-align:center;
 }
 
 header h1{
-    color:#d86cb1;
-    border-bottom:2px solid #f3bfdc;
-    padding-bottom:10px;
+    font-size:42px;
+    font-weight:400;
     margin-bottom:20px;
+    color:#c06bb3;
 }
 
 header img{
-    width:180px;
-    height:180px;
+    width:200px;
+    height:200px;
     border-radius:50%;
-    border:4px solid #f5bfdc;
     object-fit:cover;
-    margin-bottom:15px;
+    border:3px solid #d8b4fe;
+    margin-bottom:20px;
 }
 
 header h2{
-    color:#8759b3;
+    font-size:26px;
+    font-weight:500;
+    margin-bottom:8px;
 }
 
 header h3{
-    color:#6c7dd9;
+    font-size:18px;
+    font-weight:400;
+    margin-bottom:6px;
+}
+
+header h4,
+header h5{
+    font-size:15px;
+    font-weight:300;
+    margin-bottom:6px;
+}
+
+menu{
+    margin-top:30px;
+    text-align:left;
 }
 
 menu a{
-    display:flex;
-    align-items:center;
+    display:block;
     text-decoration:none;
-    background:#fff3f8;
-    border-radius:12px;
-    padding:12px;
-    margin-top:12px;
+    color:#6b5b95;
+    margin:18px 0;
 }
 
 menu span{
-    width:50px;
-    height:50px;
-    border-radius:50%;
-    background:#d8b8ff;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-weight:bold;
+    font-weight:600;
 }
 
 menu aside{
-    margin-left:12px;
+    margin-left:25px;
+}
+
+menu aside h3{
+    font-size:18px;
+    font-weight:500;
+}
+
+menu aside small{
+    color:#8a7ea8;
+    font-size:14px;
 }
