@@ -88,4 +88,7 @@ menu aside h3{
 menu aside small{
     color:#8a7ea8;
     font-size:14px;
+    font-weight:300;
+    line-height:1.5;
+    
 }
