@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snoopy Website</title>
+
+    <!-- Google Fonts Import -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Geologica:wght@600;700;800&family=Mochiy+Pop+One&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+  
+  <!-- Enlaces a tus hojas de estilo en la carpeta css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/master.css">
+  
+  <!-- Lucide Icons para los iconos de búsqueda, usuario y redes sociales -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- ENCABEZADO / HEADER -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="images/logo.png" alt="Snoopy Logo">
+    </div>
+
+    <nav class="nav-links">
+      <a href="#" class="active">About</a>
+      <a href="#">Comics</a>
+      <a href="#">Characters</a>
+      <a href="#">Gallery</a>
+      <a href="#">Store</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Buscar"><i data-lucide="search"></i></button>
+      <button class="icon-btn avatar-btn" aria-label="Perfil"><i data-lucide="user"></i></button>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- BANNER PRINCIPAL (HERO) -->
+    <section class="hero-card">
+      <div class="hero-content">
+        <h1>Small moments:<br>big adventures.</h1>
+        <p>Explore the world of Snoopy, his friends and all the comics that make us smile.</p>
+        <a href="#" class="btn-primary">Explore now &rarr;</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/bg.png" alt="Snoopy and Woodstock on doghouse">
+      </div>
+    </section>
+
+    <!-- SECCIÓN PERSONAJES -->
+    <section class="characters-section">
+      <h2 class="section-title">
+        <span class="paw-icon">🐾</span> Characters
+      </h2>
+
+      <div class="characters-grid">
+        <!-- Tarjeta 1: Snoopy -->
+        <div class="character-card bg-blue">
+          <div class="char-img-wrap">
+            <img src="images/Personaje_Snoopy.png" alt="Snoopy">
+          </div>
+          <div class="char-info">
+            <h3>Snoopy</h3>
+            <p>Explore the world of Snoopy, his friends and all the comics that make us smile.</p>
+            <a href="#" class="circle-btn btn-blue-dark">&rarr;</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 2: Woodstock -->
+        <div class="character-card bg-yellow">
+          <div class="char-img-wrap">
+            <img src="images/Personaje_Woodstock.png" alt="Woodstock">
+          </div>
+          <div class="char-info">
+            <h3>Woodstock</h3>
+            <p>Explore the world of Snoopy, his friends and all the comics that make us smile.</p>
+            <a href="#" class="circle-btn btn-yellow-dark">&rarr;</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 3: Charlie Brown -->
+        <div class="character-card bg-red">
+          <div class="char-img-wrap">
+            <img src="images/Personaje_Charlie.png" alt="Charlie Brown">
+          </div>
+          <div class="char-info">
+            <h3>Charlie Brown</h3>
+            <p>Explore the world of Snoopy, his friends and all the comics that make us smile.</p>
+            <a href="#" class="circle-btn btn-red-dark">&rarr;</a>
+          </div>
+        </div>
+
+        <!-- Tarjeta 4: Lucy -->
+        <div class="character-card bg-purple">
+          <div class="char-img-wrap">
+            <img src="images/Personaje_Lucy.png" alt="Lucy">
+          </div>
+          <div class="char-info">
+            <h3>Lucy</h3>
+            <p>Explore the world of Snoopy, his friends and all the comics that make us smile.</p>
+            <a href="#" class="circle-btn btn-purple-dark">&rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN CONTENIDO INFERIOR (Comic of the day + Latest news) -->
+    <div class="bottom-grid">
+
+      <!-- Comic of the day -->
+      <section class="comic-section">
+        <h2 class="section-title">
+          <i data-lucide="newspaper"></i> Comic of the day
+        </h2>
+        <div class="comic-card">
+          <div class="comic-img-wrap">
+            <img src="images/bg.png" alt="Comic of the day">
+          </div>
+          <div class="comic-info">
+            <h3>A little kindness goes a long way</h3>
+            <p>Snoopy reminds us that even the smallest gestures can make a big difference.</p>
+            <a href="#" class="btn-primary">Read comic. &rarr;</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Latest news -->
+      <section class="news-section">
+        <div class="news-header">
+          <h2 class="section-title">
+            <span class="star-icon">★</span> Latest news
+          </h2>
+          <a href="#" class="view-all">View all &rarr;</a>
+        </div>
+
+        <div class="news-list">
+          <!-- Noticia 1 -->
+          <article class="news-card">
+            <div class="news-img bg-blue">
+              <img src="images/Snoopy_Last.png" alt="News 1">
+            </div>
+            <div class="news-content">
+              <h4>A new comic series is here!</h4>
+              <time datetime="2025-04-12">Apr 12, 2025</time>
+            </div>
+            <span class="chevron">&rsaquo;</span>
+          </article>
+
+          <!-- Noticia 2 -->
+          <article class="news-card">
+            <div class="news-img bg-yellow">
+              <img src="images/Woodstock_Last.png" alt="News 2">
+            </div>
+            <div class="news-content">
+              <h4>Woodstock in the spotlight</h4>
+              <time datetime="2025-04-08">Apr 8, 2025</time>
+            </div>
+            <span class="chevron">&rsaquo;</span>
+          </article>
+
+          <!-- Noticia 3 -->
+          <article class="news-card">
+            <div class="news-img bg-purple">
+              <img src="images/Snoopy.png" alt="News 3">
+            </div>
+            <div class="news-content">
+              <h4>Snoopy's new collection</h4>
+              <time datetime="2025-04-02">Apr 2, 2025</time>
+            </div>
+            <span class="chevron">&rsaquo;</span>
+          </article>
+        </div>
+      </section>
+
+    </div>
+
+<!-- PIE DE PÁGINA / FOOTER (Follow us + Newsletter) -->
+<footer class="footer-card">
+
+  <!-- Columna Izquierda: Redes Sociales -->
+  <div class="footer-col follow-col">
+    <div class="social-block">
+      <span class="follow-title">Follow us</span>
+      <div class="social-icons">
+        <!-- Instagram -->
+        <a href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+        <!-- Facebook -->
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.5 5H18V0h-3.808C10.592 0 9 1.583 9 4.615V8z"/></svg>
+        </a>
+        <!-- X / Twitter -->
+        <a href="#" aria-label="X">
+          <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <!-- TikTok -->
+        <a href="#" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.82.57-1.31 1.56-1.3 2.56.01 1.01.55 1.97 1.39 2.51.92.6 2.12.63 3.09.13.91-.45 1.53-1.37 1.63-2.38.07-2.12.04-4.25.04-6.37V.02z"/></svg>
+        </a>
+        <!-- YouTube -->
+        <a href="#" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-divider"></div>
+
+  <!-- Columna Derecha: Newsletter -->
+  <div class="footer-col newsletter-col">
+    <div class="newsletter-block">
+      <span class="newsletter-title">Subscribe to our newsletter</span>
+      <form class="newsletter-form" action="#" method="POST">
+        <div class="input-wrap">
+          <i data-lucide="mail" class="mail-icon"></i>
+          <input type="email" placeholder="Your email here" required>
+        </div>
+        <button type="submit" class="circle-btn btn-yellow-dark">&rarr;</button>
+      </form>
+    </div>
+  </div>
+
+</footer>
+
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
